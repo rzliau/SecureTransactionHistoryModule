@@ -1,0 +1,254 @@
+[
+    {
+        "transactionId": "12345",
+        "amount": 100.0,
+        "date": "2023-10-01",
+        "description": "Payment for services",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12346",
+        "amount": 50.0,
+        "date": "2023-10-02",
+        "description": "Refund for product",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12347",
+        "amount": 200.0,
+        "date": "2023-10-03",
+        "description": "Salary payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12348",
+        "amount": 75.0,
+        "date": "2023-10-04",
+        "description": "Utility bill payment",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12349",
+        "amount": 150.0,
+        "date": "2023-10-05",
+        "description": "Grocery shopping",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12350",
+        "amount": 300.0,
+        "date": "2023-10-06",
+        "description": "Investment income",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12351",
+        "amount": 120.0,
+        "date": "2023-10-07",
+        "description": "Dining out",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12352",
+        "amount": 400.0,
+        "date": "2023-10-08",
+        "description": "Freelance project payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12353",
+        "amount": 60.0,
+        "date": "2023-10-09",
+        "description": "Subscription service fee",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12354",
+        "amount": 500.0,
+        "date": "2023-10-10",
+        "description": "Bonus payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12355",
+        "amount": 30.0,
+        "date": "2023-10-11",
+        "description": "Coffee shop visit",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12356",
+        "amount": 250.0,
+        "date": "2023-10-12",
+        "description": "Online course purchase",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12357",
+        "amount": 80.0,
+        "date": "2023-10-13",
+        "description": "Bookstore purchase",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12358",
+        "amount": 600.0,
+        "date": "2023-10-14",
+        "description": "Real estate rental income",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12359",
+        "amount": 45.0,
+        "date": "2023-10-15",
+        "description": "Gym membership fee",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12360",
+        "amount": 350.0,
+        "date": "2023-10-16",
+        "description": "Consulting service payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12361",
+        "amount": 90.0,
+        "date": "2023-10-17",
+        "description": "Pet care expenses",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12362",
+        "amount": 700.0,
+        "date": "2023-10-18",
+        "description": "Stock market gains",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12363",
+        "amount": 20.0,
+        "date": "2023-10-19",
+        "description": "Parking fees",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12364",
+        "amount": 400.0,
+        "date": "2023-10-20",
+        "description": "Contractor payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12365",
+        "amount": 110.0,
+        "date": "2023-10-21",
+        "description": "Home maintenance expenses",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12366",
+        "amount": 800.0,
+        "date": "2023-10-22",
+        "description": "Year-end bonus",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12367",
+        "amount": 25.0,
+        "date": "2023-10-23",
+        "description": "Snack purchase",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12368",
+        "amount": 150.0,
+        "date": "2023-10-24",
+        "description": "Clothing purchase",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12369",
+        "amount": 900.0,
+        "date": "2023-10-25",
+        "description": "Project completion bonus",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12370",
+        "amount": 35.0,
+        "date": "2023-10-26",
+        "description": "Movie tickets",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12371",
+        "amount": 120.0,
+        "date": "2023-10-27",
+        "description": "Travel expenses",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12372",
+        "amount": 1000.0,
+        "date": "2023-10-28",
+        "description": "Annual performance bonus",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12373",
+        "amount": 55.0,
+        "date": "2023-10-29",
+        "description": "Restaurant bill",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12374",
+        "amount": 200.0,
+        "date": "2023-10-30",
+        "description": "Charity donation",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12375",
+        "amount": 1500.0,
+        "date": "2023-10-31",
+        "description": "End-of-month sales commission",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12376",
+        "amount": 80.0,
+        "date": "2023-10-31",
+        "description": "Monthly subscription renewal",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12377",
+        "amount": 300.0,
+        "date": "2023-10-31",
+        "description": "Freelance writing payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12378",
+        "amount": 65.0,
+        "date": "2023-10-31",
+        "description": "Online shopping purchase",
+        "type": "debit"
+    },
+    {
+        "transactionId": "12379",
+        "amount": 400.0,
+        "date": "2023-10-31",
+        "description": "Consulting project payment",
+        "type": "credit"
+    },
+    {
+        "transactionId": "12380",
+        "amount": 90.0,
+        "date": "2023-10-31",
+        "description": "Fitness class fee",
+        "type": "debit"
+    }
+]

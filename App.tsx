@@ -1,28 +1,47 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- */
+import { StyleSheet, useColorScheme } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
+import { createNativeStackNavigator } from "@react-navigation/native-stack";
+import Login from "./screens/Login";
+import Home from "./screens/Home";
+import TransactionHistory from "./screens/TransactionHistory";
+import TransactionDetails from "./screens/TransactionDetails";
+import { RootStackParamList } from "./types/navigation";
+import { Button } from "react-native";
+import { AppProvider } from "./providers/AppContext";
 
-import { NewAppScreen } from '@react-native/new-app-screen';
-import { StatusBar, StyleSheet, useColorScheme, View } from 'react-native';
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 function App() {
-  const isDarkMode = useColorScheme() === 'dark';
+    const isDarkMode = useColorScheme() === "dark";
 
-  return (
-    <View style={styles.container}>
-      <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
-      <NewAppScreen templateFileName="App.tsx" />
-    </View>
-  );
+    return (
+        <AppProvider>
+            <NavigationContainer>
+                <Stack.Navigator initialRouteName="Login">
+                    <Stack.Screen
+                        name="Login"
+                        component={Login}
+                        options={{ headerShown: false }}
+                    />
+                    <Stack.Screen name="Home" component={Home} />
+                    <Stack.Screen
+                        name="TransactionHistory"
+                        component={TransactionHistory}
+                    />
+                    <Stack.Screen
+                        name="TransactionDetails"
+                        component={TransactionDetails}
+                    />
+                </Stack.Navigator>
+            </NavigationContainer>
+        </AppProvider>
+    );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
+    container: {
+        flex: 1,
+    },
 });
 
 export default App;
